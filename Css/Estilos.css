@@ -1,13 +1,13 @@
 
 body
 {
-<<<<<<< HEAD
-    color: blue;
-=======
-    color: red;
->>>>>>> cabecera
-    text-align: left;
+    background: #1e1f24;
+    color: #333;
+    text-align: center;
     font-family: "Courier";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 #cabecera
@@ -20,6 +20,12 @@ body
     margin: 0;
     padding: 0.5em;
     font-weight: bold;
+}
+
+#cabecera #Logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline
@@ -52,6 +58,17 @@ font-size: 0.8em;
 #post
 
 {
+    background: white;
+    padding: 1em;
+
+}
 
 
+#footer 
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 00.5em;
+}
 }
